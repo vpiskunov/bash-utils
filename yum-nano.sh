@@ -12,7 +12,9 @@ echo "##########################################################################
 
 #Update the repositories
 
-sudo yum update && sudo yum upgrade
+#sudo yum update && sudo yum upgrade
+
+sudo yum -y install nano
 
 echo -e "\n"
 
