@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Vladyslav Piskunov <vlad@assuredlabs.com>
+
 clear
 echo 'Welcome to Apache2 Virtual Host Creator!'
 echo ''
