@@ -1,7 +1,7 @@
 #!/bin/bash
 # ------------------------------------------------------------------
-# [Vladyslav Piskunov] Erlang installer for Fedora
-#         for Middlesex University 2015
+# [Vladyslav Piskunov] Nano installer for Fedora
+#         for Middlesex University 2016
 #
 # ------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ echo -e "\n
 ############################################
 
 Written by Vladyslav Piskunov © (vp365@live.mdx.ac.uk)
-for Middlesex University 2015
+for Middlesex University 2016
 
 ############################################"
 
