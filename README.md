@@ -1,5 +1,5 @@
-# myBashScripts
-My useful bash scripts library, some written by me and others
+# bash-utils
+My bash scripts library, some written by me, some by others
 
 To install nano through yum, enter:
 
