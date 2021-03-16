@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Vladyslav Piskunov <vlad@assuredlabs.com>
+
 clear
 echo 'Welcome to Git Automatic Pull configurator!'
 echo ''

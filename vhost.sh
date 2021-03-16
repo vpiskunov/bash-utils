@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Vladyslav Piskunov <vlad@assuredlabs.com>
+
 clear
 echo 'Welcome to Apache2 Virtual Host Creator!'
 echo ''
@@ -78,7 +80,7 @@ else
 	exit 0
 fi
 if [ ! -e "/etc/apache2/sites-enabled/generated-$domainName.conf" ]; then
-	echo "$vhost" > /etc/apache2/sites-enabled/generated-$domainName.conf
+	ln -s ../sites-available/generated-$domainName.conf /etc/apache2/sites-enabled/generated-$domainName.conf
 else
         echo ' ### ERROR: sites-enabled => file exists already!'
         exit 0
